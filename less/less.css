@@ -1,0 +1,27 @@
+#home {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #ff0000;
+}
+#home #top {
+  width: inherit;
+  height: 100px;
+  background-color: #ffdf00;
+}
+#home #center {
+  width: inherit;
+  height: 400px;
+}
+#home #center #left {
+  float: left;
+  background-color: #63ff00;
+  width: inherit;
+  height: inherit;
+}
+#home #center #right {
+  float: right;
+  background-color: #ffffff;
+  width: inherit;
+  height: inherit;
+}

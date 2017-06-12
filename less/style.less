@@ -1,0 +1,33 @@
+@color_yellow:#FFDF00;
+@color_red:#FF0000;
+@color_green:#63FF00;
+@color_white:#FFFFFF;
+
+
+#home{
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	background-color: @color_red;
+	#top{
+		width: inherit;
+		height: 100px;
+		background-color: @color_yellow;
+	}
+	#center{
+		width: inherit;
+		height: 400px;
+		#left{
+			float: left;
+			background-color: @color_green;
+			width: inherit;
+			height: inherit;
+		}
+		#right{
+			float: right;
+			background-color: @color_white;
+			width: inherit;
+			height: inherit;
+		}
+	}
+}
